@@ -38,10 +38,9 @@ int main(){
     for (int j=0;j<n;j++){
         if (k==A[j]){
             cout<<j<<endl;
-        }
-        else{
-            cout<<"The item doesn't exist"<<endl;
+            break;
         }
     }
+    cout<<"Cannot find the key in the Array"<<endl;
     return 0;
 }
